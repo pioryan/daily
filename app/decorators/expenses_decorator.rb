@@ -1,0 +1,3 @@
+class ExpensesDecorator < Decorator
+
+end

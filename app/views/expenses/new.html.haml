@@ -1,0 +1,9 @@
+= form_for @expense do |f|
+  .form-group
+    %label{for: "name"} Name
+    = f.text_field :name, :class => "form-control"
+  .form-group
+    %label{for: "cost"} Cost
+    = f.text_field :cost, :class => "form-control"
+
+  %button.btn.btn-default{type: "submit"} Submit

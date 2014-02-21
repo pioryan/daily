@@ -1,0 +1,14 @@
+%h3
+  Expenses
+= link_to new_expense_path, :class => "btn btn-info" do
+  Add Expenses
+.row
+  %table.table
+    %thead
+      %tr
+        %th
+          Item
+        %th
+          Cost
+    %tbody
+      = render :partial => @expenses
