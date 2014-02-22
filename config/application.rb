@@ -22,5 +22,9 @@ module Daily
     config.generators do |g|
       g.template_engine :haml
     end
+
+    config.generators do |g|
+      g.test_framework :rspec
+    end
   end
 end

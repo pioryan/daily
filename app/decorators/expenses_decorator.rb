@@ -1,3 +1,0 @@
-class ExpensesDecorator < Decorator
-
-end
